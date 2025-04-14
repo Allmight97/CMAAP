@@ -40,11 +40,11 @@
 - ✅ **Emotional MileStone(s) and Coherence check**
 	- [X] Human does X to validate/test ...
 
-- ✅ **Success Criteria:**
-	- [X] AI Agent self-validation Coherence checklist
+- ✅ **Success Criteria:** (Ai and Human coherence checkpoint)
+	- [ ] Emotional Milestone(s) and cohence check (human validated milestone? > Ai to review remaining tasks)
 	- [X] What does success look like for Task 1.2.1 and is it done?
 	- [X] What does success look like for Task 1.2.2 and is it done?
-	- [ ] Milestone(s) and cohence check achieved?
+	- ...
 ```
 
 ## Roles: Human and AI Agent
