@@ -1,5 +1,4 @@
-# CMAAP
-Framework for Coherent Multi-Agent Atomic Implementation Planning
+# CMAAP - Coherent Multi-Agent Atomic Planning Framework
 
 This is a work in progress and will change over time as my knowledge and experience grows and as Ai systems become more advanced, 
 
@@ -14,3 +13,5 @@ In more complex multi-agent setups, this could be adapted within a system prompt
 #EXAMPLE USE CASE
 
 Say you worked with your favorite AI service (Gemini or Claude or ChatGPT) to get your basic smooth-brained idea out of your skull into a decently formatted PRD (what you envision the thing to do). You then chat with your AI agent of choice to flesh out that PRD into an implementation plan that aligns with the CMAAP framework so that the bloody machine produces a somewhat reliable planning doc, thus destroying Planet Druidia (old ways) and saving Planet Spaceball (ain't nobody got time for all this planning and coding).
+
+PS: Bobiverse Fans - I am open to suggestions for an improved, portable acronym 😉
