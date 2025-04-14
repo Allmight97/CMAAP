@@ -12,7 +12,7 @@ In more complex multi-agent setups, this could be adapted within a system prompt
 
 #EXAMPLE USE CASE
 
-Say you worked with your favorite AI service (Gemini or Claude or ChatGPT) to get your basic smooth-brained idea out of your skull into a decently formatted PRD (what you envision the thing to do). You then chat with your AI agent of choice to flesh out that PRD into an implementation plan that aligns with the CMAAP framework so that the bloody machine produces a somewhat reliable planning doc, thus destroying Planet Druidia (old ways) and saving Planet Spaceball (ain't nobody got time for all this planning and coding).
+Say you worked with your favorite AI service (Gemini, Claude, or ChatGPT) to get your basic smooth-brained idea out of your skull into a decently formatted PRD (what you envision the thing to do). You then chat with your AI agent of choice to flesh out that PRD into an implementation plan that aligns with the CMAAP framework. Frequent users could setup custom Gemini Gems, Claude Projects, or ChatGPT Projects to make better more reliable use of the framework in hopes it saves you times and headache, thus destroying Planet Druidia (old ways) and saving Planet Spaceball (ain't nobody got time for all this planning and coding).
 
 PS: BLAAAAT!
 **Bobiverse Fans**: I am open to suggestions for an improved acronym 😉
