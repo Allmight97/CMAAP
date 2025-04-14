@@ -1,0 +1,77 @@
+# Structure
+
+- **Project Goal**: [summary of project outcomes]
+- **Roles**: [summary of human and AI agent roles]
+- **Phases**: [concise summary of phases as defined in WBS]
+	- Phase 1: Name of Phase
+	- Goal: Concise Summary of what the phase aims to achieve.
+	- Emotional Milestone: Concise Summary of Milestones/Coherence Check.e
+	- Success Criteria: Concise Summary of what "done" looks like for this phase.
+	- Completed Phases and mile stones are marked with ✅
+- **Change Management**: Recommendations (if any) on what to do if challenges arise that require reconsidering of design (tech stack, approach, MVP feature didn't work out as desired, etc..)
+
+## Work Breakdown Structure (WBS)
+
+- Phases > Atomic Tasks > Milestones > Success Criteria
+	- Atomic tasks (e.g. H for Human, AI for AI Agent, Task H1.1.1, AI 1.2.1, etc) contain bulleted components for agents to complete to mark that task complete [X].
+	- ✅ Milestone(s) and Coherence Check for human to validate project (and Ai agent) is on track and "real" beyond a set of tasks and checklists.
+	- ✅ Success criteria to define and validate success of atomic tasks and phase.
+
+**Example of good completed WBS**
+
+```markdown
+## **Work Breakdown Structure**
+
+### ✅ Phase 1: Description**
+- [X] **H 1.1.1: Verify Environment or whatever:**
+	- Setup environment and dependencies where needed
+	- create folder structure
+	- Create and enter API key
+	- ...
+
+- [X] **AI 1.2.1: Atomic Task:**
+	- Do this
+	- Then that
+	- ...
+
+- [X] **AI 1.2.2: Atomic Task:**
+	- Details...
+
+- ✅ **Emotional MileStone(s) and Coherence check**
+	- [X] Human does X to validate/test ...
+
+- ✅ **Success Criteria:**
+	- [X] AI Agent self-validation Coherence checklist
+	- [X] What does success look like for Task 1.2.1 and is it done?
+	- [X] What does success look like for Task 1.2.2 and is it done?
+	- [ ] Milestone(s) and cohence check achieved?
+```
+
+## Roles: Human and AI Agent
+*Note: work in progress, roles are always adjusting depending upon project needs and learnings over time.*
+
+**Human:**
+Acts as project "human in the loop" orchestrator responsible for project and Ai agent coherence:
+- Juggling Ai agents and managing project workflow.
+- Reviews AI-generated code and documentation, ask questions to keep Ai on track.
+- Manages the project environment (files, version control if used).
+- Defines Ai agent framework (single or multi-agent system).
+- Works with Architect Agent to finalize tech stack and implementation plan.
+- Makes final decisions on implementation details or ambiguities.
+- Performs testing at key milestones as assigned.
+- Installs necessary external dependencies (if needed)  
+
+**AI Agent:**
+Agent roles can vary based on the complexity of the project and the capabilities of the AI agent.
+
+**Coding**
+- Generates Code (following modern best practices of maintainable and modular code of no more than 500 lines)
+- Implements specific, atomic tasks as assigned that align with success criteria
+
+**Architect**
+- Ideates and informs architecture
+- Helps manage documentation (updates, creating new, etc)
+**Debugger**
+- Reviews code to validate implementation against success criteria and PRD.
+- Provides feedback to Human and other agents as to quality of code and coherence of implementation.
+- Finds bugs or misalignments and drafts a report to address them to be reviewed by human and Architect.
