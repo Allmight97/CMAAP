@@ -1,77 +1,102 @@
-# Structure
+# CMAAP - Coherent Multi-Agent Atomic Planning Framework
+This is a guide for humans and Ai agents in taking a basic idea for an app or even a complete PRD and break it down into phases, tasks, and milestones according to the CMAAP framework. The most critical pieces are role definition and the work breakdown structure (WBS).
 
-- **Project Goal**: [summary of project outcomes]
-- **Roles**: [summary of human and AI agent roles]
-- **Phases**: [concise summary of phases as defined in WBS]
-	- Phase 1: Name of Phase
-	- Goal: Concise Summary of what the phase aims to achieve.
-	- Emotional Milestone: Concise Summary of Milestones/Coherence Check.e
-	- Success Criteria: Concise Summary of what "done" looks like for this phase.
-	- Completed Phases and mile stones are marked with ✅
-- **Change Management**: Recommendations (if any) on what to do if challenges arise that require reconsidering of design (tech stack, approach, MVP feature didn't work out as desired, etc..)
+Each implementation plan should contain a summary of the project, roles, and WBS, and a risk management section that notes project blockers and potential risks to consider (as they arise or if known at project start).
 
-## Work Breakdown Structure (WBS)
+## Guidelines for WBS
+WBS follows a hierarchical structure: Phases > Atomic Tasks > Milestones > Success Criteria
+- **Phases**: Summarize purpose of the phase
+	- Each phase is broken down into Atomic tasks, milestones, and success criteria.
+	- Completed Phases are marked with ✅ (meaning all success criteria have been met)
+- **Atomic Tasks**:
+	- Contain components for ai agents and humans to complete said task.
+	- Unique identifier (e.g. H1.1.1, AI 1.2.1, etc) that distinguishes it from tasks in other phases and devides work between human and Ai agents.
+	- Each atomic task is marked with [X] when completed.
+- **Milestone(s)**: Coherence check for agents working the project
+	- Each milestone is marked with [X] when completed.
+	- A milestone may contain one or two tasks for the human to "feel good" about the project and prove it is real beyond a set of tasks and checklists.
+	- An Ai agent may assign themselves a milestone to validate success criteria against completed atomic tasks.
+- **Success Criteria**: Define "what done looks like" to validate success of each phase
+	- Each success criteria is marked with [X] when completed.
+	- Milestone completion is ALWAYS part of success criteria.
 
-- Phases > Atomic Tasks > Milestones > Success Criteria
-	- Atomic tasks (e.g. H for Human, AI for AI Agent, Task H1.1.1, AI 1.2.1, etc) contain bulleted components for agents to complete to mark that task complete [X].
-	- ✅ Milestone(s) and Coherence Check for human to validate project (and Ai agent) is on track and "real" beyond a set of tasks and checklists.
-	- ✅ Success criteria to define and validate success of atomic tasks and phase.
-
-**Example of good completed WBS**
+## CMAAP Template
+This is the preferred format a Coherent Multi-Agent Atomic Implementation Plan.
 
 ```markdown
-## **Work Breakdown Structure**
+# Project Overview
+**Project Goal**: [Executive summary of project outcomes]
+**Roles**: [summary of human and AI agent roles]
+**Phases**: [concise summary of phases as defined in WBS]
+	- Phase 1: Name of Phase
+	- Goal: Concise Summary of what the phase aims to achieve and what success looks like for that phase.
+	
+**Risk Management**: Recommendations (if any) on what to do if challenges arise that require reconsidering of design (tech stack, MVP feature didn't work out as desired, etc..)
 
-### ✅ Phase 1: Description**
+## Roles [Define coherent human and Ai Roles Specific to the project]
+	- **Human**: Acts as project "human in the loop" orchestrator responsible for project and Ai agent coherence
+		- e.g. Juggling Ai agents and managing project workflow.
+		- e.g. Reviews AI-generated code and documentation, ask questions to keep Ai on track.
+		- e.g. Manages the project environment (files, version control if used).
+		- e.g. Defines Ai agent framework (single or multi-agent system).
+		- e.g. Works with Architect Agent to finalize tech stack and implementation plan.
+		- e.g. Makes final decisions on implementation details or ambiguities.
+		- e.g. Performs testing at key milestones as assigned.
+		- Installs necessary external dependencies (if needed)
+	- **AI Agent**: Agent roles can vary based on the complexity of the project and the capabilities of the AI agent.
+		- e.g. Coding Agent: Generates code following modern best practices of maintainable and modular code of no more than 500 lines
+		- e.g. Architect Agent: Ideates and informs architecture
+		- e.g. Debugger Agent: Reviews code to validate implementation against success criteria and PRD.
+		- e.g. Documentation Agent: Helps manage documentation (updates, creating new, etc)
+
+## Work Breakdown Structure (WBS)
+*Example of desired WBS format*
+### Phase 1: [Description]
 - [X] **H 1.1.1: Verify Environment or whatever:**
 	- Setup environment and dependencies where needed
 	- create folder structure
 	- Create and enter API key
-	- ...
+	- etc ...
 
 - [X] **AI 1.2.1: Atomic Task:**
 	- Do this
 	- Then that
-	- ...
+	- etc ...
 
 - [X] **AI 1.2.2: Atomic Task:**
-	- Details...
+	- etc ...
 
-- ✅ **Emotional MileStone(s) and Coherence check**
+- **Emotional Milestone(s) and Coherence check**
 	- [X] Human does X to validate/test ...
 
-- ✅ **Success Criteria:** (Ai and Human coherence checkpoint)
-	- [ ] Emotional Milestone(s) and cohence check (human validated milestone? > Ai to review remaining tasks)
+- **Success Criteria:** (Ai and Human coherence checkpoint)
+	- [ ] Are emotional milestones completed?
 	- [X] What does success look like for Task 1.2.1 and is it done?
 	- [X] What does success look like for Task 1.2.2 and is it done?
-	- ...
+	- etc ...
+
+### Phase 2: [Description]
+- [X] **H 2.1.1: Verify Environment or whatever:**
+	- Setup environment and dependencies where needed
+	- create folder structure
+	- Create and enter API key
+	- etc ...
+
+- [X] **AI 2.2.1: Atomic Task:**
+	- Do this
+	- Then that
+	- etc ...
+
+- [X] **AI 2.2.2: Atomic Task:**
+	- etc ...
+
+- **Emotional Milestone(s) and Coherence check**
+	- [X] Human does X to validate/test ...
+
+- **Success Criteria:** (Ai and Human coherence checkpoint)
+	- [ ] Are emotional milestones completed?
+	- [X] What does success look like for Task 2.2.1 and is it done?
+	- [X] What does success look like for Task 2.2.2 and is it done?
+	- etc ...
 ```
 
-## Roles: Human and AI Agent
-*Note: work in progress, roles are always adjusting depending upon project needs and learnings over time.*
-
-**Human:**
-Acts as project "human in the loop" orchestrator responsible for project and Ai agent coherence:
-- Juggling Ai agents and managing project workflow.
-- Reviews AI-generated code and documentation, ask questions to keep Ai on track.
-- Manages the project environment (files, version control if used).
-- Defines Ai agent framework (single or multi-agent system).
-- Works with Architect Agent to finalize tech stack and implementation plan.
-- Makes final decisions on implementation details or ambiguities.
-- Performs testing at key milestones as assigned.
-- Installs necessary external dependencies (if needed)  
-
-**AI Agent:**
-Agent roles can vary based on the complexity of the project and the capabilities of the AI agent.
-
-**Coding**
-- Generates Code (following modern best practices of maintainable and modular code of no more than 500 lines)
-- Implements specific, atomic tasks as assigned that align with success criteria
-
-**Architect**
-- Ideates and informs architecture
-- Helps manage documentation (updates, creating new, etc)
-**Debugger**
-- Reviews code to validate implementation against success criteria and PRD.
-- Provides feedback to Human and other agents as to quality of code and coherence of implementation.
-- Finds bugs or misalignments and drafts a report to address them to be reviewed by human and Architect.
