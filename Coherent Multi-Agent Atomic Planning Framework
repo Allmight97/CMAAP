@@ -3,7 +3,10 @@ This is a guide for humans and Ai agents in taking a basic idea for an app or ev
 
 Each implementation plan should contain a summary of the project, roles, and WBS, and a risk management section that notes project blockers and potential risks to consider (as they arise or if known at project start).
 
-## Guidelines for WBS
+## Example workflow story of how this framework might be used
+Say a solo dev or small group of people have an idea for an app or personal piece of software. They presented some ideas of how it might work, or at least some basic features they'd want to see in MVP. They would may start by writing a PRD or basic outline of the app amoungst themselves or using Ai agents to generate a PRD. They would then that that PRD/outline and use this frame along with an Ai agent (solo or team of agents) to design and tech stack, assess risks, and break down the project into phases, tasks, and milestones using the CMAAP template.
+
+## CMAAP Guidelines for Work Breakdown Structure (WBS)
 WBS follows a hierarchical structure: Phases > Atomic Tasks > Milestones > Success Criteria
 - **Phases**: Summarize purpose of the phase
 	- Each phase is broken down into Atomic tasks, milestones, and success criteria.
@@ -13,16 +16,16 @@ WBS follows a hierarchical structure: Phases > Atomic Tasks > Milestones > Succe
 	- Unique identifier (e.g. H1.1.1, AI 1.2.1, etc) that distinguishes it from tasks in other phases and devides work between human and Ai agents.
 	- Marked with [X] when completed.
 - **Milestone(s)**: Coherence check for agents working the project
-	- Marked with [X] when completed.
 	- A milestone may contain one or two tasks for the human to "feel good" about the project and prove it is real beyond a set of tasks and checklists.
 	- An Ai agent may assign themselves a milestone to validate success criteria against completed atomic tasks.
-- **Success Criteria**: Defines "what done looks like" for each phase
 	- Marked with [X] when completed.
+- **Success Criteria**: Defines "what done looks like" for each phase
 	- Milestone completion is ALWAYS part of success criteria.
 	- Completed Atomic tasks are ALWAYS part of success criteria.
+	- Marked with [X] when completed.
 
 ## CMAAP Template
-This is the preferred format a Coherent Multi-Agent Atomic Implementation Plan.
+Preferred format for a Coherent Multi-Agent Atomic Implementation Plan.
 
 ```markdown
 # Project Overview
@@ -51,7 +54,7 @@ This is the preferred format a Coherent Multi-Agent Atomic Implementation Plan.
 		- e.g. Documentation Agent: Helps manage documentation (updates, creating new, etc)
 
 ## Work Breakdown Structure (WBS)
-*Example of desired WBS format*
+*Example of desired WBS format using CMAAP Guidelines*
 ### Phase 1: [Description]
 - [X] **H 1.1.1: Verify Environment or whatever:**
 	- Setup environment and dependencies where needed
