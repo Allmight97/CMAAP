@@ -7,18 +7,19 @@ Each implementation plan should contain a summary of the project, roles, and WBS
 WBS follows a hierarchical structure: Phases > Atomic Tasks > Milestones > Success Criteria
 - **Phases**: Summarize purpose of the phase
 	- Each phase is broken down into Atomic tasks, milestones, and success criteria.
-	- Completed Phases are marked with ✅ (meaning all success criteria have been met)
+	- Marked with ✅ (meaning all success criteria have been met) when completed.
 - **Atomic Tasks**:
 	- Contain components for ai agents and humans to complete said task.
 	- Unique identifier (e.g. H1.1.1, AI 1.2.1, etc) that distinguishes it from tasks in other phases and devides work between human and Ai agents.
-	- Each atomic task is marked with [X] when completed.
+	- Marked with [X] when completed.
 - **Milestone(s)**: Coherence check for agents working the project
-	- Each milestone is marked with [X] when completed.
+	- Marked with [X] when completed.
 	- A milestone may contain one or two tasks for the human to "feel good" about the project and prove it is real beyond a set of tasks and checklists.
 	- An Ai agent may assign themselves a milestone to validate success criteria against completed atomic tasks.
-- **Success Criteria**: Define "what done looks like" to validate success of each phase
-	- Each success criteria is marked with [X] when completed.
+- **Success Criteria**: Defines "what done looks like" for each phase
+	- Marked with [X] when completed.
 	- Milestone completion is ALWAYS part of success criteria.
+	- Completed Atomic tasks are ALWAYS part of success criteria.
 
 ## CMAAP Template
 This is the preferred format a Coherent Multi-Agent Atomic Implementation Plan.
@@ -99,4 +100,3 @@ This is the preferred format a Coherent Multi-Agent Atomic Implementation Plan.
 	- [X] What does success look like for Task 2.2.2 and is it done?
 	- etc ...
 ```
-
